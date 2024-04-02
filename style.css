@@ -1,0 +1,33 @@
+body {
+    background-image: url('6.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Menambahkan lapisan transparan pada header */
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s; /* Efek transisi ketika mengarahkan kursor ke link */
+}
+
+nav a:hover {
+    color: lightblue; /* Warna teks berubah ketika dihover */
+}
